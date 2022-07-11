@@ -33,7 +33,7 @@
 						'<td>' . $row['description'] . '</td>' ;
 
 						if (empty($row['vendorName'])){
-							$output .=	'<td style="color:green;font-weight: bold">' .'Disponível'. '</td>' ;
+							$output .=	'<td style="color:green;font-weight: bold">' .'*Disponível'. '</td>' ;
 						} else {
 							$output .=	'<td>' . $row['vendorName'] . '</td>' ;
 						}				
@@ -50,8 +50,7 @@
 						<th>Patrimônio</th>
 						<th>Status</th>
 						<th>Descrição</th>
-						<th>Local/Responsável</th>
-						
+						<th>Responsável</th>
 						</tr>
 					</tfoot>
 				</table>';
